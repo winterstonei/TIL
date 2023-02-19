@@ -1,0 +1,6 @@
+230219
+- Data Smoothing : Gaussian From chatGPT
+Gaussian smoothing is a type of smoothing or filtering method that uses a Gaussian function to convolve with the signal. The Gaussian function is a bell-shaped curve that is symmetric around the mean and has the maximum value at the mean.
+To apply Gaussian smoothing to a signal, we convolve the signal with a Gaussian kernel, which is simply a discrete approximation of the Gaussian function. The width of the Gaussian kernel (i.e., the standard deviation of the Gaussian function) determines the amount of smoothing: a wider kernel results in more smoothing.
+The advantages of Gaussian smoothing are that it is computationally efficient and it preserves the shape of the signal better than some other smoothing methods. In addition, the Gaussian function has some nice mathematical properties, such as being infinitely differentiable, which makes it a good choice for some applications.
+However, one disadvantage of Gaussian smoothing is that it can introduce some lag in the signal, because the smoothing effect extends to neighboring data points. Additionally, Gaussian smoothing is sensitive to the choice of the kernel width, and it may not be the best choice for all types of signals or noise.
