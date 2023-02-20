@@ -1,3 +1,8 @@
+230220
+- Gaussian Smoothing - filter
+https://m.blog.naver.com/ggssgg1028/222862037259
+
+--------------------
 230219
 - Data Smoothing : Gaussian From chatGPT
 Gaussian smoothing is a type of smoothing or filtering method that uses a Gaussian function to convolve with the signal. The Gaussian function is a bell-shaped curve that is symmetric around the mean and has the maximum value at the mean.
