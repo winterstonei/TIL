@@ -1,3 +1,24 @@
+230222
+- Pins in DDR5 (JEDEC Standard)
+- Data pins (64ea) / Power (Tot: 20ea - VDD: 8ea / VDDQ: 8ea / VPP: 2ea / VDDSPD: 1ea / VDD2DRX: 1ea)
+- CA (Tot: 25ea / CA: 9ea [0:8] / CKE: 1ea / CS: 4ea [0:3] / ODT: 4ea [0:3] / PAR: 1ea / DMI: 2ea [0:1] / DMO: 2ea [0:1] / DBI: 2ea [0:1])
+    CA[0:8]: These are the main command/address pins and are used to transmit memory addresses and command signals between the memory controller and the memory module. These signals are organized into 9-bit groups called "CA bus segments" and are used to address individual rows and columns of memory cells, activate or precharge rows, and initiate various read/write/refresh operations.
+
+    CKE: Clock Enable. This signal is used to enable/disable the internal clock of the memory module.
+
+    CS[0:3]: Chip Select. These signals are used to select or deselect the memory module in multi-rank memory configurations.
+
+    ODT[0:3]: On-Die Termination. These signals are used to control the impedance of the memory module's output drivers to optimize signal quality and reduce reflections.
+
+    PAR: Parity. This signal is used to transmit parity information for error detection in memory accesses.
+
+    DMI[0:1]: Data Mask In. These signals are used to mask off certain data bits during write operations.
+
+    DMO[0:1]: Data Mask Out. These signals are used to indicate which data bits are valid during read operations.
+
+    DBI: Data Bus Inversion. This signal is used to enable or disable data bus inversion for power optimization.
+
+--------------------
 230220
 - Gaussian Smoothing - filter
 https://m.blog.naver.com/ggssgg1028/222862037259
